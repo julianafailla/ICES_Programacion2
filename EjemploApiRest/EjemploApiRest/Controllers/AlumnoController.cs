@@ -17,5 +17,13 @@ namespace EjemploApiRest.Controllers
         {
             return alumnoList;
         }
+
+        [HttpPost]
+        public int CrearAlumno(Alumno alumno)
+        {
+            alumnoList.Add(alumno);
+            return alumno.Id;
+        }
+
     }
 }
