@@ -25,5 +25,20 @@ namespace EjemploApiRest.Controllers
             return alumno.Id;
         }
 
+        [HttpPut("{id}")]
+        public ActionResult ActualizarAlumno(int id, Alumno alumno)
+        {
+            var alumnoActualizar = alumnoList.Find(x => x.Id == id);
+
+            if (alumnoActualizar == null)
+            {
+                return NotFound();
+            }
+
+            alumnoActualizar.Nombre = alumno.Nombre;
+            alumnoActualizar.Apellido = alumno.Apellido;
+
+            return Ok();
+        }
     }
 }
