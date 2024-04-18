@@ -1,10 +1,13 @@
 # ICES Programacion2
+
+Configuración Entity Framwork
+
 Documentacion: https://learn.microsoft.com/es-es/aspnet/core/tutorials/first-mvc-app/adding-model?view=aspnetcore-8.0&tabs=visual-studio
 
 1 Agregar paquete Nuget
 - Microsoft.EntityFrameworkCore.SqlServer
 - Microsoft.EntityFrameworkCore.Tools
-- 
+  
 2 Crear carpeta Data  
 
     public class ApplicationDbContext : DbContext
