@@ -54,5 +54,20 @@ namespace EjemploApiRest.Controllers
 
             return Ok(alumno);
         }
+
+        [HttpDelete("{id}")]
+        public ActionResult BorrarAlumno(int id)
+        {
+            var alumno = alumnoList.Find(x => x.Id ==id);
+
+            if (alumno == null)
+            {
+                return NotFound();
+            }
+
+            alumnoList.Remove(alumno);
+
+            return Ok();
+        }
     }
 }
