@@ -40,5 +40,19 @@ namespace EjemploApiRest.Controllers
 
             return Ok();
         }
+
+
+        [HttpGet("{id}")]
+        public ActionResult ConsultarAlumno(int id)
+        {
+            var alumno = alumnoList.Find(x => x.Id == id);
+
+            if (alumno == null)
+            {
+                return NotFound();
+            }
+
+            return Ok(alumno);
+        }
     }
 }
