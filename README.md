@@ -16,15 +16,14 @@ Documentacion: https://learn.microsoft.com/es-es/aspnet/core/tutorials/first-mvc
        {
   
        }
-       public DbSet<apiprueba.Entities.Persona> Persona { get; set; } = default!;
+       public DbSet<.Persona> Persona { get; set; } = default!;
 
-       public DbSet<apiprueba.Entities.Curso> Curso { get; set; } = default!;
     }}
 
 
 3 appsettings.json
 
-"ConnectionStrings": { "ApplicationDbContext": "Server=localhost\\SQLEXPRESS;Database=PruebaApi;Trusted_Connection=True;MultipleActiveResultSets=true;TrustServerCertificate=True;" },
+"ConnectionStrings": { "ApplicationDbContext": "Server=localhost\\SQLEXPRESS;Database=PruebaApi;Trusted_Connection=True;MultipleActiveResultSets=true;TrustServerCertificate=True;" }
 
 4 Program.cs
 
@@ -32,7 +31,8 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 
 options.UseSqlServer(builder.Configuration.GetConnectionString("ApplicationDbContext")));
 
-5 Add-Migration MigracionInicial y Update-Database  
+5 En Herramientas -> Administrador de paquetes NuGet -> Consolta del administrador de paquetes : Ejecutar los comandos 1 - Add-Migration MigracionInicial y 2 - Update-Database 
+
 6 En el controlador creado agregar
 
     private readonly ApplicationDbContext _context;
