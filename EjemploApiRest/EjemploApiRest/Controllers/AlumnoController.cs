@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using EjemploApiRest.Models;
+using Microsoft.AspNetCore.Mvc;
 
 namespace EjemploApiRest.Controllers
 {
@@ -64,7 +65,6 @@ namespace EjemploApiRest.Controllers
             {
                 return NotFound();
             }
-
             alumnoList.Remove(alumno);
 
             return Ok();
