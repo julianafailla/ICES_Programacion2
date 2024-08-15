@@ -24,3 +24,10 @@
     background-color: #0465aa;
     color: white;
 }
+
+@media screen and (max-width: 600px) {
+    .tablaAlumnos th {
+        background-color: red;
+    }
+}
+
