@@ -19,24 +19,6 @@
             
             document.querySelector("#div").innerHTML = inputUsuario;
             
-            // Utilizar textContent para insertar texto de manera segura
-            // Usar textContent o innerText 
-            //document.getElementById('comments').textContent = inputUsuario;
-
-            // Solucion Manual: Función para escapar caracteres especiales en HTML
-            /*
-            function escapeHtml(unsafe) {
-                return unsafe
-                    .replace(/&/g, "&amp;")
-                    .replace(/</g, "&lt;")
-                    .replace(/>/g, "&gt;")
-                    .replace(/"/g, "&quot;")
-                    .replace(/'/g, "&#039;");
-            }
-
-            // Escapar el input del usuario antes de insertarlo en el HTML
-            document.getElementById('comments').innerHTML = escapeHtml(userInput);
-            */
         }
     </script>
 </body>
