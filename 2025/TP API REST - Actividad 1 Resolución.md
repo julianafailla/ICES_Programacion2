@@ -34,7 +34,7 @@ Crea un nuevo animal.
 
 ```json
 {
-  "tipo": "Gato",
+  "tipo": "1",
   "nombre": "Michi",
   "raza": "Siamés",
   "edad": 3,
