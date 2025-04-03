@@ -42,6 +42,13 @@ Crea un nuevo animal.
   "idDueño": 2
 }
 ```
+**Cuerpo de la respuesta:**
+
+```json
+{
+  "id": 1
+}
+```
 
 **Respuestas:**
 
@@ -120,7 +127,13 @@ Crea un nuevo dueño.
   "apellido": "Perez"
 }
 ```
+**Cuerpo de la respuesta:**
 
+```json
+{
+  "id": 1
+}
+```
 **Respuestas:**
 
 - 201 Created
@@ -212,7 +225,14 @@ Registra una nueva atención.
 
 - `fechaAtencion` no puede ser futura.
 - `fechaAtencion` no puede ser >30 días en el pasado.
+- 
+**Cuerpo de la respuesta:**
 
+```json
+{
+  "id": 1
+}
+```
 **Respuestas:**
 
 - 201 Created
