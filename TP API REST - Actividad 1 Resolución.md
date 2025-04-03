@@ -128,7 +128,7 @@ Crea un nuevo dueño.
 
 ---
 
-### **GET /dueños/{dni}**
+### **GET /dueños/{id}**
 
 Obtiene un dueño específico.
 
@@ -139,7 +139,7 @@ Obtiene un dueño específico.
 
 ---
 
-### **PUT /dueños/{dni}**
+### **PUT /dueños/{id}**
 
 Actualiza un dueño.
 
@@ -153,7 +153,7 @@ Actualiza un dueño.
 
 ---
 
-### **DELETE /dueños/{dni}**
+### **DELETE /dueños/{id}**
 
 Elimina un dueño.
 
