@@ -1,5 +1,5 @@
 .fondo {
-    background-color: aqua;
+    background-color: lightseagreen;
     width: 20%;
     text-align: center;
 }
@@ -10,6 +10,5 @@
 
 .grupo-input label {
     display: inline-block;
-    margin-bottom: 5px;
     width: 80px;
 }
