@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8z0r1Jre9bE=",
+  "dgSpecHash": "/TG6Wr9R7ZM=",
   "success": true,
-  "projectFilePath": "C:\\Users\\emibu\\Source\\Repos\\Persona\\Persona\\Persona.csproj",
+  "projectFilePath": "C:\\Users\\emibu\\OneDrive\\Documentos\\Programacion\\2025\\ICES_Programacion2\\2025\\Persona\\Persona\\Persona.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\emibu\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\emibu\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
