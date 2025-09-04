@@ -54,8 +54,7 @@
               "RelativeToolTip": "PersonaWeb\\Models\\PersonaDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-12T20:36:51.456Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-12T20:36:51.456Z"
             },
             {
               "$type": "Document",
@@ -67,8 +66,7 @@
               "RelativeToolTip": "PersonaWeb\\Properties\\launchSettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-08-12T20:34:40.372Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-12T20:34:40.372Z"
             },
             {
               "$type": "Document",
@@ -80,8 +78,7 @@
               "RelativeToolTip": "PersonaWeb\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAAAwAAAAAAAAAAAAAABwAAAB7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-12T20:27:37.613Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-12T20:27:37.613Z"
             },
             {
               "$type": "Document",
@@ -93,8 +90,7 @@
               "RelativeToolTip": "PersonaWeb\\ViewModels\\Persona.cs",
               "ViewState": "AgIAAAIAAAAAAAAAAAAxwAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-12T20:23:47.019Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-12T20:23:47.019Z"
             },
             {
               "$type": "Document",
@@ -106,8 +102,7 @@
               "RelativeToolTip": "PersonaWeb\\Views\\Personas\\ConsultarPersona.cshtml",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-12T20:21:01.847Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-12T20:21:01.847Z"
             },
             {
               "$type": "Document",
@@ -117,7 +112,7 @@
               "RelativeDocumentMoniker": "PersonaWeb\\Controllers\\PersonaController.cs",
               "ToolTip": "C:\\Users\\emibu\\OneDrive\\Documentos\\Programacion\\2025\\ICES_Programacion2\\2025\\PersonaWeb\\PersonaWeb\\PersonaWeb\\Controllers\\PersonaController.cs",
               "RelativeToolTip": "PersonaWeb\\Controllers\\PersonaController.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAxwBIAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-12T20:18:02.403Z",
               "EditorCaption": ""
@@ -132,8 +127,7 @@
               "RelativeToolTip": "PersonaWeb\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-12T20:42:19.835Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-12T20:42:19.835Z"
             },
             {
               "$type": "Document",
@@ -145,8 +139,7 @@
               "RelativeToolTip": "PersonaWeb\\Controllers\\HomeController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-12T20:17:04.694Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-12T20:17:04.694Z"
             }
           ]
         }
