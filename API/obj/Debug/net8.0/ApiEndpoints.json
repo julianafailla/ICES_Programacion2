@@ -1,0 +1,752 @@
+[
+  {
+    "ContainingType": "Program\u002B\u003C\u003Ec",
+    "Method": "\u003C\u003CMain\u003E$\u003Eb__0_1",
+    "RelativePath": "",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API.Controllers.AlumnoController",
+    "Method": "GetAlumnos",
+    "RelativePath": "api/Alumno",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API.Controllers.AlumnoController",
+    "Method": "GetAlumnoPorDNI",
+    "RelativePath": "api/Alumno/{dni}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dni",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API.Controllers.AsistenciaController",
+    "Method": "Crear",
+    "RelativePath": "api/Asistencia",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "crearAsistenciaDTO",
+        "Type": "Entidades.DTOs.Crear.CrearAsistenciaDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API.Controllers.AsistenciaController",
+    "Method": "Modificar",
+    "RelativePath": "api/Asistencia/{dniAlumno}/{nombreMateria}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dniAlumno",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "nombreMateria",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "modificarAsistenciaDTO",
+        "Type": "Entidades.DTOs.Modificar.ModificarAsistenciaDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API.Controllers.AsistenciaController",
+    "Method": "Eliminar",
+    "RelativePath": "api/Asistencia/{dniAlumno}/{nombreMateria}/{fecha}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dniAlumno",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "nombreMateria",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "fecha",
+        "Type": "System.DateTime",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API.Controllers.AsistenciaController",
+    "Method": "ObtenerInasistenciasPorAlumno",
+    "RelativePath": "api/Asistencia/DNI/{dni}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dni",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API.Controllers.AsistenciaController",
+    "Method": "ObtenerAsistenciasPorMateria",
+    "RelativePath": "api/Asistencia/NombreMateria/{nombreMateria}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "nombreMateria",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API.Controllers.DiaController",
+    "Method": "ObtenerDias",
+    "RelativePath": "api/Dia",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API.Controllers.DiaController",
+    "Method": "ObtenerDiaPorID",
+    "RelativePath": "api/Dia/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API.Controllers.DiaHorarioController",
+    "Method": "GetAll",
+    "RelativePath": "api/DiaHorario",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API.Controllers.DiaHorarioController",
+    "Method": "GetById",
+    "RelativePath": "api/DiaHorario/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API.Controllers.ExamenController",
+    "Method": "ObtenerExamenes",
+    "RelativePath": "api/Examen",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API.Controllers.ExamenController",
+    "Method": "Crear",
+    "RelativePath": "api/Examen",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "crearExamenDTO",
+        "Type": "Entidades.DTOs.Crear.CrearExamenDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API.Controllers.ExamenController",
+    "Method": "ObtenerExamenesPorMateria",
+    "RelativePath": "api/Examen/{nombreMateria}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "nombreMateria",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API.Controllers.ExamenController",
+    "Method": "Modificar",
+    "RelativePath": "api/Examen/{nombreMateria}/{descripcionDiaHorario}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "nombreMateria",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "descripcionDiaHorario",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "modificarExamenDTO",
+        "Type": "Entidades.DTOs.Modificar.ModificarExamenDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API.Controllers.ExamenController",
+    "Method": "EliminarPorID",
+    "RelativePath": "api/Examen/{nombreMateria}/{descripcionDiaHorario}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "nombreMateria",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "descripcionDiaHorario",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API.Controllers.HorarioController",
+    "Method": "ObtenerHorarios",
+    "RelativePath": "api/Horario",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API.Controllers.HorarioController",
+    "Method": "ObtenerHorarioId",
+    "RelativePath": "api/Horario/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API.Controllers.InscripcionController",
+    "Method": "ObtenerInscripciones",
+    "RelativePath": "api/Inscripcion",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API.Controllers.InscripcionController",
+    "Method": "AltaInscripcion",
+    "RelativePath": "api/Inscripcion",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "crearInscripcionDTO",
+        "Type": "Entidades.DTOs.Crear.CrearInscripcionDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API.Controllers.InscripcionController",
+    "Method": "BajaInscripcion",
+    "RelativePath": "api/Inscripcion/{nombreMateria}/{dniAlumno}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "nombreMateria",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "dniAlumno",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API.Controllers.InscripcionController",
+    "Method": "ObtenerInscripcionesDNI",
+    "RelativePath": "api/Inscripcion/PorDNI/{nombreMateria}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dni",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "nombreMateria",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API.Controllers.InscripcionController",
+    "Method": "ObtenerInscripcionesMateria",
+    "RelativePath": "api/Inscripcion/PorMateria/{nombreMateria}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "nombreMateria",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API.Controllers.MateriaController",
+    "Method": "GetMaterias",
+    "RelativePath": "api/Materia",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API.Controllers.MateriaController",
+    "Method": "PostMateria",
+    "RelativePath": "api/Materia",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "materia",
+        "Type": "Entidades.DTOs.Crear.CrearMateriaDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API.Controllers.MateriaController",
+    "Method": "PutMateria",
+    "RelativePath": "api/Materia/{nombreMateria}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "nombreMateria",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "materia",
+        "Type": "Entidades.DTOs.Modificar.ModificarMateriaDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API.Controllers.MateriaController",
+    "Method": "DeleteMateria",
+    "RelativePath": "api/Materia/{nombreMateria}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "nombreMateria",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API.Controllers.MateriaController",
+    "Method": "GetMateriasDNIProfesor",
+    "RelativePath": "api/Materia/DNIProfesor/{nombreMateria}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dni",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "nombreMateria",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API.Controllers.MateriaController",
+    "Method": "GetMateria",
+    "RelativePath": "api/Materia/NombreMateria/{nombreMateria}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "nombreMateria",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API.Controllers.NotaAlumnoController",
+    "Method": "ObtenerNotas",
+    "RelativePath": "api/NotaAlumno",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API.Controllers.NotaAlumnoController",
+    "Method": "CrearNotaAlumno",
+    "RelativePath": "api/NotaAlumno",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "crearNotaAlumnoDTO",
+        "Type": "Entidades.DTOs.Crear.CrearNotaAlumnoDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API.Controllers.NotaAlumnoController",
+    "Method": "ModificarNotaAlumno",
+    "RelativePath": "api/NotaAlumno/{dniAlumno}/{idExamen}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dniAlumno",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "idExamen",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "modificarNotaAlumnoDTO",
+        "Type": "Entidades.DTOs.Modificar.ModificarNotaAlumnoDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API.Controllers.NotaAlumnoController",
+    "Method": "EliminarNotaAlumno",
+    "RelativePath": "api/NotaAlumno/{dniAlumno}/{idExamen}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dniAlumno",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "idExamen",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API.Controllers.NotaAlumnoController",
+    "Method": "ObtenerNotasPorAlumno",
+    "RelativePath": "api/NotaAlumno/dniAlumno/{dniAlumno}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dniAlumno",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API.Controllers.NotaAlumnoController",
+    "Method": "ObtenerNotasPorMateria",
+    "RelativePath": "api/NotaAlumno/nombreMateria/{nombreMateria}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "nombreMateria",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API.Controllers.ProfesorController",
+    "Method": "ObtenerProfesores",
+    "RelativePath": "api/Profesor",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API.Controllers.ProfesorController",
+    "Method": "ObtenerProfesor",
+    "RelativePath": "api/Profesor/{dni}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dni",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API.Controllers.RolUsuarioController",
+    "Method": "ObtenerRoles",
+    "RelativePath": "api/RolUsuario",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API.Controllers.API.Controllers.UsuarioController",
+    "Method": "GetUsuarios",
+    "RelativePath": "api/Usuario",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API.Controllers.API.Controllers.UsuarioController",
+    "Method": "PostUsuario",
+    "RelativePath": "api/Usuario",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "usuario",
+        "Type": "Entidades.DTOs.Crear.CrearUsuarioDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API.Controllers.API.Controllers.UsuarioController",
+    "Method": "GetUsuarioPorDNI",
+    "RelativePath": "api/Usuario/{dni}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dni",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API.Controllers.API.Controllers.UsuarioController",
+    "Method": "PutUsuario",
+    "RelativePath": "api/Usuario/{dni}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dni",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "usuario",
+        "Type": "Entidades.DTOs.Modificar.ModificarUsuarioDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API.Controllers.API.Controllers.UsuarioController",
+    "Method": "DeleteUsuario",
+    "RelativePath": "api/Usuario/{dni}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dni",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API.Controllers.API.Controllers.UsuarioController",
+    "Method": "PutUsuarioPassword",
+    "RelativePath": "api/Usuario/actualizarPassword/{dni}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dni",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "passwordDto",
+        "Type": "Entidades.DTOs.ModificarUsuarioPasswordDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API.Controllers.API.Controllers.UsuarioController",
+    "Method": "LogIn",
+    "RelativePath": "api/Usuario/LogIn",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "usuarioLogIn",
+        "Type": "Entidades.DTOs.Crear.CrearUsuarioLogInDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

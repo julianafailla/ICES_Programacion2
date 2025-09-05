@@ -1,0 +1,52 @@
+﻿const infoModal = document.getElementById('informacionUsuario');
+
+infoModal.addEventListener('show.bs.modal', function (event) {
+    const button = event.relatedTarget;
+    const telefonoCompleto = button.getAttribute('data-telefono') || '';
+    let caracteristica = '';
+    let numero = '';
+
+    // Separar característica y número
+    const partes = telefonoCompleto.trim().split(' ');
+    if (partes.length >= 2) {
+        caracteristica = partes[0];
+        numero = partes.slice(1).join(' ');
+    } else {
+        numero = telefonoCompleto;
+    }
+
+    document.getElementById('infoCaracteristicaTelefono').value = caracteristica;
+    document.getElementById('infoNumeroTelefono').value = numero;
+    document.getElementById('infoDni').value = button.getAttribute('data-dni');
+    document.getElementById('infoNombre').value = button.getAttribute('data-nombre');
+    document.getElementById('infoApellido').value = button.getAttribute('data-apellido');
+    document.getElementById('infoLocalidad').value = button.getAttribute('data-localidad');
+    document.getElementById('infoDireccion').value = button.getAttribute('data-direccion');
+    document.getElementById('infoRol').value = button.getAttribute('data-rol');
+    document.getElementById('infoFechaContratoIngreso').value = button.getAttribute('data-fechaContratoIngreso');
+
+    // Deshabilitar inputs al abrir
+    document.querySelectorAll('#infoUsuarioForm input').forEach(i => i.disabled = true);
+    document.getElementById('btnConfirmar').disabled = true;
+
+    // Asegurar que rol y fecha siempre estén deshabilitados
+    document.getElementById('infoRol').disabled = true;
+    document.getElementById('infoFechaContratoIngreso').disabled = true;
+
+    // Action dinámico
+    document.getElementById('infoUsuarioForm').setAttribute('action', `/Usuario/UpdateUsuario?dni=${button.getAttribute('data-dni')}`);
+});
+
+document.getElementById('btnModificar').addEventListener('click', function () {
+    document.querySelectorAll('#infoUsuarioForm input').forEach(i => {
+        if (i.id !== 'infoDni' && i.id !== 'infoRol' && i.id !== 'infoFechaContratoIngreso') i.disabled = false;
+    });
+    document.getElementById('btnConfirmar').disabled = false;
+});
+
+document.getElementById('btnModificar').addEventListener('click', function () {
+    document.querySelectorAll('#infoUsuarioForm input').forEach(i => {
+        if (i.id !== 'infoDni') i.disabled = false; // DNI no se edita
+    });
+    document.getElementById('btnConfirmar').disabled = false;
+});
